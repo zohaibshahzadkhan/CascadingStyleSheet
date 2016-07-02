@@ -1,0 +1,71 @@
+@font-face
+{
+font-family: 'abc';
+src: url('AlexBrush-Regular.ttf');
+}
+body
+{
+    font-size: 2em;
+}
+#serif
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    
+}
+#sanserif
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: overline;
+    line-height: 1.5em;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+}
+#sanserif::first-letter
+{
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+
+}
+#MonoSpace
+{
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+    text-transform: lowercase;
+    text-decoration: overline;
+    text-align: justify;
+}
+#Cursive
+{
+    font-family: Comic Sans MS;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    
+}
+#Fantasy
+{
+ font-family: Impact;
+ text-align: right;
+}
+
+.indent
+{
+    text-indent: 120px;
+}
+.shadow
+{
+    color: white;
+    background: black;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: abc;
+    text-shadow: 4px 4px 10px lawngreen;
+    
+}

@@ -1,0 +1,57 @@
+
+body
+{
+ background-color: palegoldenrod;
+ font-family: serif;   
+}
+h1
+{
+ 
+ color: rebeccapurple; 
+}
+
+/*  
+*{
+    color: blue;
+}*/
+p.par01
+{
+    color: blue;
+    font-style: italic;
+}
+.ClassSelector
+{
+    color: palevioletred;
+    font-style: italic;
+}
+
+#id_Selector
+{
+    color: sienna !important ;
+    font-style: italic;
+}
+
+#id_Selector
+{
+   color:black;
+   
+}
+
+li>a
+{
+    font-size: 25px;
+    color: yellowgreen;
+    font-style: italic;
+}
+
+h2~p
+{
+    font: bold;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+h3~p
+{
+    color: chartreuse;
+    font-size: 30px;
+}

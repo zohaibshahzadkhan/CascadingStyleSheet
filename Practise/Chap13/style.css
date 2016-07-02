@@ -1,0 +1,67 @@
+div.box
+{
+    width:30%;
+    height:250px;  
+    text-align: justify;
+    background: yellow;
+    min-width: 152px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-width:8px 4px 2px 0px ; 
+
+}
+div.box>p
+{
+    width: 50%;
+    height: 200px;
+    min-width: 150px;      
+    background: beige;
+}
+
+div.box1
+{
+    
+    width:30%;
+    height:250px;  
+    border: 1px solid black;
+    background: green;
+    margin-top: 10px;
+    border-top-width: thick;
+    
+}
+p[class="one"]
+{
+    border-style: solid;
+}
+
+p[class="two"]
+{
+    border-style: dotted;
+}
+
+p[class="three"]
+{
+    border-style: dashed;
+}
+p[class="four"]
+{
+    border-style: double;
+}
+
+p[class="five"]
+{
+    border-style: groove;
+}
+p[class="six"]
+{
+    border-style: ridge;}
+p[class="seven"]
+{
+    border-style: inset;
+}
+
+p[class="eight"]
+{
+    border-style: outset;
+}

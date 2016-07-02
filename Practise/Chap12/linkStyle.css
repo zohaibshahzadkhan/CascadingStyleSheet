@@ -1,0 +1,44 @@
+a
+{
+text-decoration: none;
+ 
+}
+a:hover
+{
+    text-decoration: underline;
+    color: sandybrown;
+}
+a:focus
+{
+    color: chartreuse;
+    text-decoration: line-through;
+}
+p[class]
+{
+    color: saddlebrown;
+    font-size: 1.5em;
+}
+p[class='names']
+{
+   color: lightgray;
+   font-family: serif;
+   background: black; 
+}
+p[class^="N"]
+{
+background: yellow;
+}
+p[id*='der']
+{
+    background: blue;
+    color: white;
+    font-size: 1.5em;
+}
+p[id$="t"]
+{
+    background: black;
+    color: white;
+    text-shadow: 4px 4px 10px greenyellow;
+    font-size: 2em;
+
+}
