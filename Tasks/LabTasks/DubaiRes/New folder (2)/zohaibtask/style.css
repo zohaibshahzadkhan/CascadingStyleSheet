@@ -1,0 +1,18 @@
+.colView1
+{
+    width: 200px;
+    float: left;
+    text-align: justify;
+    margin: 20px;
+    z-index: 9;
+   
+    
+}
+h2
+{
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    background: red;
+    z-index: -7;
+}

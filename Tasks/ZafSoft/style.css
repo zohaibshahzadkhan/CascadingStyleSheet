@@ -1,0 +1,336 @@
+
+body
+{
+ //background: darkkhaki;
+   
+}
+table
+{
+    width: 100%;
+}
+nav.navbar-default
+{
+    width: 100%;
+    height: 90px;
+    margin-bottom: 25px;
+    background: black;
+    margin: 0px auto;
+    //margin-top: 30px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    
+    
+    
+}
+
+ul.navbar-nav>li
+{
+ font-size: 16px;
+ padding-left: 15px;
+ padding-right: 15px;
+  height: 70px;
+}
+ul.navbar-nav> li:hover
+{
+    font-size: 16px;
+    font-weight: bold;
+    background: floralwhite;
+    opacity: 0.8;
+    
+}
+h1
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+div.portfolioSection
+{
+    background:url('images/service2.png');
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: 800px;
+    
+    
+    
+}
+span.glyphicon-globe
+
+{
+    font-size:500%;
+    color: lightseagreen;
+    margin-top:16px;
+    margin-bottom: 16px;
+    padding-left: 35%;
+    //min-width: 1000px;
+}
+
+span.glyphicon-refresh
+{
+    font-size: 500%;
+    color: dodgerblue;
+    margin-top:16px;
+    margin-bottom: 16px;
+    padding-left: 35%;
+}
+span.glyphicon-phone
+{
+    font-size: 500%;
+    color: greenyellow;
+    margin-top:16px;
+    margin-bottom: 16px;
+    padding-left: 35%;
+}
+
+span.glyphicon-blackboard
+{
+    font-size: 500%;
+    color: darkorchid;
+    margin-top:16px;
+    padding-left: 35%;
+    margin-bottom: 16px;
+}
+
+span.glyphicon-knight
+{
+    font-size: 500%;
+    color: mediumvioletred;
+    margin-top:16px;
+    padding-left: 35%;
+    margin-bottom: 16px;
+}
+div.servicesSection
+{
+    
+
+    width: 100%;
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 70px;
+    background: url('images/service.jpg');
+    background-size:cover;
+    min-height: 800px;
+    
+    
+    
+}
+div.serviceSubDiv
+{
+    height: 500px;
+    width: 19%;
+    opacity: 1;
+    display: inline-block; 
+    margin: 20px 10px 100px 0px;
+    min-width: 250px;
+    background-color: rgba(235,81,0,0.5);
+    color: #ffffff;
+    
+    
+}
+.serviceDetail 
+{
+    padding-left:10px;
+    
+
+}
+
+tr.serviceSecRow1>td
+{
+     text-align: center;
+     padding: 2%;
+
+}
+
+tr.serviceSecRow2>td
+{
+    
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+              
+}
+
+tr.serviceSecRow3>td
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    
+    
+}
+p.portfolio
+{
+    text-align: center;
+    font-size: 18px;
+    color:black;
+    
+}
+div.subSection
+{
+
+    height: 172px;
+    width: 12%;
+    display: inline-block;  
+    margin: 20px 25px 100px 0px;
+    border: 1px solid black;
+    min-width: 270px;
+    min-height: 250px;
+
+}
+td.setImage1
+{
+    height: 200px;
+    width: 286px;
+    background: url('images/p1.jpg');
+    opacity: 0.8;
+    
+}
+td.setImage2
+{
+    height: 200px;
+    width: 286px;
+    background-image: url('images/p1.jpg');
+    opacity: 0.8;
+}
+td.setImage3
+{
+    height: 200px;
+    width: 286px;
+    background-image: url('images/p1.jpg');
+    opacity: 0.8;
+}
+td.setImage4
+{
+    height: 200px;
+    width: 200px;
+    background: url('images/p1.jpg');
+    opacity: 0.8;
+    
+}
+td.setDescription
+{
+    text-align: center;
+    color:white;
+    background: black;
+    height: 50px; 
+    font-size: 12px;   
+    opacity: 0.8;
+}
+div.aboutUsSection
+{
+    width: 100%;
+    min-height: 800px;
+    display: block;
+    background: url(images/about1.jpg);
+    background-size: cover;
+}
+
+
+div.aboutUsView>img
+{
+    border-radius: 50%;
+}
+p.Teamdescrp
+{
+    padding-left: 110px;
+    margin-top: -80px;
+    font-size: 16px;
+
+}
+p.Teamdescrp:first-letter
+{
+    font-size: 24px;
+    color: indigo;
+}
+.aboutUsView
+{
+    
+    width: 19%;
+    display: inline-block;
+    margin-left:5%;
+    min-width: 264px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+     background-color: rgba(229, 229, 229,0.6);
+    
+}
+.aboutUsView>img:hover
+{
+    transform: scale(2);
+
+}
+.contactUs
+{
+    width: 100%;
+    height: 400px;
+    background:url("images/footer.jpg");
+    background-size: cover;
+    padding-top: 10px;
+    color: white;
+    margin-top: 2px;
+
+}
+.contactUs>p
+{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+form
+{
+    display: none;
+}
+ .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 120px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        */
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('img/a02.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l { background-position: -3px -33px; }
+        .jssora02r { background-position: -63px -33px; }
+        .jssora02l:hover { background-position: -123px -33px; }
+        .jssora02r:hover { background-position: -183px -33px; }
+        .jssora02l.jssora02ldn { background-position: -3px -33px; }
+        .jssora02r.jssora02rdn { background-position: -63px -33px; }
+

@@ -1,0 +1,56 @@
+/*div
+{
+  height: auto;
+  width:600px; 
+  padding: 150px 130px; 
+  border: 1px solid black;
+  margin: 0 auto;
+ box-shadow:  -0 -10px 100px sandybrown;
+ border-radius: 5em 8em 8em 8em / 5em 8em 8em 8em;
+
+
+}
+p{
+    background: wheat;
+}
+p
+{
+    
+    border-width:22px 22px 22px 22px;
+    border-style: solid  inset dotted dotted;
+    border-color: red;
+    
+}
+*/
+
+ul
+{
+list-style-type: circle;
+}
+ol
+{
+    list-style-type: upper-alpha;
+    /*list-style-image: url("nic.jpg");*/
+    border: 1px solid black;
+    list-style-position: inside;
+    width: 50px;
+}
+table
+{
+    width: 600px;
+    height: 500px;
+}
+table.one
+{
+    empty-cells: show;
+    border-spacing: 15px 15px;
+    empty-cells: hide;
+    border-collapse: separate;
+}
+
+td{
+    background-color: #0088dd;
+    padding: 15px;
+    border: 2px solid #000000;
+    
+}
